@@ -47,7 +47,9 @@
 
 <div class="container">
 	<div class="boxtest_ref">
-	<h2 style="color:black;"><b>Generating False Acceptance Examples</b></h2>
+	<h2 style="color:black;"><b> Generating False Acceptance Examples (ST: Standard Training, AT: Adversarial Training) </b></h2>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
 <br>
 &nbsp;
@@ -68,7 +70,7 @@
 
 		    <tr>
                       <td class="align-middle"> <strong> &nbsp &nbsp 1. &nbsp &nbsp </strong> </th>
-                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp ST with VF &nbsp &nbsp &nbsp &nbsp </strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp ST with Vanilla Features &nbsp &nbsp &nbsp &nbsp </strong> </th>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
@@ -79,7 +81,7 @@
 											
                    <tr>
                       <td class="align-middle"> <strong> &nbsp &nbsp 2. &nbsp &nbsp </strong> </th>
-                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp ST with RF &nbsp &nbsp &nbsp &nbsp </strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp ST with Ribust Features &nbsp &nbsp &nbsp &nbsp </strong> </th>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
@@ -89,7 +91,7 @@
 													
                    <tr>
                       <td class="align-middle"> <strong> &nbsp &nbsp 3. &nbsp &nbsp </strong> </th>
-                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp AT with VF &nbsp &nbsp &nbsp &nbsp</strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp AT with Vanilla Features &nbsp &nbsp &nbsp &nbsp</strong> </th>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
@@ -97,7 +99,7 @@
 																
                    <tr>
                       <td class="align-middle"> <strong> &nbsp &nbsp 4. &nbsp &nbsp </strong> </th>
-                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp AT with RF &nbsp &nbsp &nbsp &nbsp </strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp AT with Robust Features &nbsp &nbsp &nbsp &nbsp </strong> </th>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
                       <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
@@ -110,11 +112,86 @@
 		
 </div>
 
-											   
-												      
+<br>
+&nbsp;
+<br>											   
+
+<div class="container">
+	<div class="boxtest_ref">
+	<h2 style="color:black;"><b>Generating False Rejection Examples (ST: Standard Training, AT: Adversarial Training) </b></h2>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<br>
+&nbsp;
+<br>
+		
+		<table class="table">
+                  <tbody">
+                    <thead>
+                    <tr>
+                      <th class="align-center">S. No</th>
+                      <th class="align-center">Model</th>
+		      <th class="align-center">Enrollment Speech</th>
+		      <th class="align-center">Imposter Speaker's Voice</th>
+                      <th class="align-center">Adversarial Signal</th>
+                    </tr>		      
+                  </thead>
+		        
+
+		    <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 1. &nbsp &nbsp </strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp ST with Vanilla Features &nbsp &nbsp &nbsp &nbsp </strong> </th>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+
+
+									
+											
+                   <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 2. &nbsp &nbsp </strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp ST with Robust Features &nbsp &nbsp &nbsp &nbsp </strong> </th>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+
+
+													
+                   <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 3. &nbsp &nbsp </strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp AT with Vanilla Features &nbsp &nbsp &nbsp &nbsp</strong> </th>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+																
+                   <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 4. &nbsp &nbsp </strong> </th>
+                      <td class="align-middle"> <strong> &nbsp &nbsp &nbsp &nbsp AT with Robust Features &nbsp &nbsp &nbsp &nbsp </strong> </th>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/enroll.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/test_nontarget.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="CSSP2023_Examples/Gradients_FalseAcceptance_baseline1.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+
+
+                  </tbody>
+                </table>
+	
+		
+</div>
+
+<br>
+&nbsp;
+<br>	
+
 <div class="container">
 	<div class="boxtest_ref">
 	<h2 style="color:black;"><b>Speech signals estimated from the binary masked magnitude spectrograms through Griffin-Lim algorithm</b></h2>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
 <br>
 &nbsp;
