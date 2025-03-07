@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Adversarial Attacks</title>
+	  
+	  
+    <!-- Bootstrap -->
+    <link href="
+        dist/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+	    	.align-middle-content {
+	    		display: flex;
+	    		align-items: center;
+	    		justify-content: center;
+	    		}
+          table>td> {
+            border: none;
+          }
+    </style>
+	  
+	  
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+<br>
+
+<center>
+
+	
+<div class="container">
+	<div class="boxtest_ref">
+	<h2 style="color:black;"><b> Adversarial Attacks on Text-dependent Speaker Verification System </b></h2>	
+<br>
+		
+<br>
+&nbsp;
+<br>
+
+								       
+<hr style="margin-left:10;width:75%;height:2px;border-width:0;color:gray;background-color:gray">
+
+<div class="container">
+	<div class="boxtest_ref">
+	<h2 style="color:black;"> Examples of adversarial examples </h2>
+
+<hr style="margin-left:10;width:75%;height:2px;border-width:0;color:gray;background-color:gray">
+
+<br>
+&nbsp;
+<br>
+		
+		<table class="table">
+                  <tbody">
+                    <thead>
+                    <tr>
+                      <th class="align-center">S. No</th>
+		      <th class="align-center">Enrollment Speech</th>
+		      <th class="align-center">Imposter Speaker's Voice</th>
+                      <th class="align-center">Adversarial Signal</th>
+                    </tr>		      
+                  </thead>
+		        
+
+		    <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 1. &nbsp &nbsp </strong> </th>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150409212250191_f0005_40.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150306223347155_m0014_34.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/m0014_34_20150306223347155_f0005_40.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+
+
+									
+											
+                   <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 2. &nbsp &nbsp </strong> </th>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150309142902051_f0002_40.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150218033744337_m0019_31.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/m0019_31_20150218033744337_f0002_40.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+
+
+													
+                   <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 3. &nbsp &nbsp </strong> </th>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150324150135625_f0006_37.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150625192654684_m0022_35.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/m0022_35_20150625192654684_f0006_37.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+																
+                   <tr>
+                      <td class="align-middle"> <strong> &nbsp &nbsp 4. &nbsp &nbsp </strong> </th>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150320065146487_m0015_34.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/20150425224003606_m0053_32.wav" type="audio/mpeg"></audio></td>
+                      <td class="align-center"> <audio controls><source src="ICASSP2025/m0053_32_20150425224003606_m0015_34.wav" type="audio/mpeg"></audio></td>
+		    </tr>
+
+
+                  </tbody>
+                </table>
+	
+		
+</div>
+
+<br>
+&nbsp;
+<br>											   
+
+
+
+<br>
+&nbsp;
+<br>	
+
+
+												      
+<br>
+&nbsp;
+<br>
+</center>
+	  </body>
+</html>
